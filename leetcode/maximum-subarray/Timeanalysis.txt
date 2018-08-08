@@ -1,0 +1,10 @@
+Time analysis :
+diagonal loop: 
+  O(n)
+
+upper half matrix loop : 
+n-1 + n-2 + n-3 ... ~ O(n2) 
+
+From the book it is possible to organize the sum logic to 
+do it in O(n) .Maybe I am missing something.
+
