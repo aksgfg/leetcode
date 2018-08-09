@@ -9,3 +9,14 @@ From the book it is possible to organize each sum logic to
 do it in O(1). This is happening already.
 
 Need to improve space . half of the space is wasted.
+we can replace the data structure with something which has
+similar access complexity but less order of growth in space.
+
+Access complexity required = O(1)
+Space complexity required = o(n^2) preferably O(n) or O(1)
+ 
+basic requirement is to lookup i,j th subarray sum and assign that
+sum in case its absent. There will be nC2 such subarrays. Now will have to
+see if we will require O(n^2) memory, or can we do it in lesser?
+
+
